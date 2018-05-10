@@ -604,9 +604,9 @@ static int flag;
 {
     NSString *imageName = nil;
     if (status == AMapNaviRouteStatusSmooth)            imageName = @"icusttexture_green";
-    else if (status == AMapNaviRouteStatusSlow)         imageName = @"custtexture_slow";
-    else if (status == AMapNaviRouteStatusJam)          imageName = @"custtexture_bad";
-    else if (status == AMapNaviRouteStatusSeriousJam)   imageName = @"custtexture_serious";
+    else if (status == AMapNaviRouteStatusSlow)         imageName = @"icusttexture_slow";
+    else if (status == AMapNaviRouteStatusJam)          imageName = @"icusttexture_bad";
+    else if (status == AMapNaviRouteStatusSeriousJam)   imageName = @"icusttexture_serious";
     else imageName = @"custtexture_no";
     
     return [UIImage imageNamed:imageName];
